@@ -4,7 +4,4 @@ namespace app\controllers;
 
 class HomeController
 {
- public function index(){
-    var_dump('H O M E');
- }
 }
