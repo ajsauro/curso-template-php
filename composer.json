@@ -3,16 +3,21 @@
     "autoload": {
         "psr-4": {
             "app\\": "app/"
-        }
+        },
+        "files": [
+            "app/framework/helpers/helpers.php"
+        ]
     },
     "scripts": {
         "server":"php -S localhost:8000 -t public"
+    },
+    "config": {
+        "process-timeout":0
     },
     "authors": [
         {
             "name": "Antonio João"
         }
     ],
-    "require": {},
-    "config process-timeout":0
+    "require": {}
 }

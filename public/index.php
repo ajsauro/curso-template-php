@@ -1,14 +1,7 @@
 <?php
-$data = ['name' => 'Antonio João'];
 
-ob_start();
+session_start();
 
-extract($data);
+require "../vendor/autoload.php";
 
-require("home.php");
-
-$content = ob_get_contents();
-
-ob_end_clean();
-
-var_dump($content);
+routerExecute();
