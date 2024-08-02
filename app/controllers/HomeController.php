@@ -6,6 +6,6 @@ class HomeController
 {
     public function index()
     {
-        echo "H O M E";
+        view('home', ['name' => 'Antonio João']);
     }
 }

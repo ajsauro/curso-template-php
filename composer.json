@@ -19,5 +19,7 @@
             "name": "Antonio João"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "symfony/var-dumper": "^6.4"
+    }
 }
